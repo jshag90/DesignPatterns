@@ -1,5 +1,6 @@
 package com.ji.structural_patterns.bridge.before;
 
+
 public class App {
 
     public static void main(String[] args) {
@@ -7,5 +8,4 @@ public class App {
         kda아리.skillQ();
         kda아리.skillR();
     }
-
 }

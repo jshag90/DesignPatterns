@@ -37,4 +37,9 @@ public class DefaultChampion implements Champion {
     public void skillR() {
         System.out.printf("%s %s R\n", skin.getName(), this.name);
     }
+
+    @Override
+    public String getName() {
+        return null;
+    }
 }
