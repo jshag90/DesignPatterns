@@ -1,6 +1,8 @@
 package com.ji.structural_patterns.bridge.before;
 
-public interface Champion {
+import com.ji.structural_patterns.bridge.after.Skin;
+
+public interface Champion extends Skin {
 
     void move();
 
@@ -11,4 +13,5 @@ public interface Champion {
     void skillE();
 
     void skillR();
+
 }
