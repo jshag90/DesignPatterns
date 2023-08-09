@@ -1,15 +1,17 @@
 package com.ji.behavioral_patterns.observer.before;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class ChatServer {
 
-    private final Map<String, List<String>> messages;
+    private Map<String, List<String>> messages;
 
-    public ChatServer(Map<String, List<String>> messages) {
-        this.messages = messages;
+
+    public ChatServer() {
+        this.messages = new HashMap<>();
     }
 
     public void add(String subject, String message) {
