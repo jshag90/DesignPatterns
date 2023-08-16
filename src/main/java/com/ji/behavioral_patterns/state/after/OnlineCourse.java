@@ -7,9 +7,9 @@ public class OnlineCourse {
 
     private State state = new Draft(this);
 
-    private List<Student> students = new ArrayList<>();
+    private final List<Student> students = new ArrayList<>();
 
-    private List<String> reviews = new ArrayList<>();
+    private final List<String> reviews = new ArrayList<>();
 
     public void addStudent(Student student) {
         this.state.addStudent(student);
